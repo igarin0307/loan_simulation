@@ -3,9 +3,10 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+
 import calculator
 
-st.title('Simulating Loan Repayment')
+st.title('Igari Loan Repayment')
 
 @st.cache_data
 def convert_df(df):
